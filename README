@@ -1,0 +1,24 @@
+# README
+# Pritika Vig
+# Graphics Lab
+
+
+usage:
+	cd into scenes folder, and call program with a specifed json file 
+    ex: ../bin/mk/01_raytrace x.json
+
+output:
+	Program will create an image file titled the name of the json file .png that will be saved into the folder.
+
+
+01_raytrace makes a simple ray tracer that loops through pixels in a frame, checks for intersection with surfaces, and visualizes shadows, colors, and lights. 
+The program also supports anti-aliasing. Currently functioning for surfaces: quad, sphere, cylinder. 
+
+Files:
+My code is contained within the file 01_raytrace.cpp in the apps folder of the source code. 
+In ./assignment01/scenes/tests/ all of 'scene name'.png files are examples of my program executing successfully. These files are overwritten when you run the program, so I have also copied them into the folder ./assignment01/scenes/tests/
+
+Cylinder - 
+	I have implemented a cylinder. To view my cylinder, run ../bin/mk/01_raytrace testscene2
+	The output will be testscene2.png. It creates a cylinder in the y direction with height radius. 
+	An example picture is in my tests folder called testscene2.png.

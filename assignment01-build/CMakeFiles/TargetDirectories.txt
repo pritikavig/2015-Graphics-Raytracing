@@ -1,0 +1,3 @@
+/Users/pritikavig/graphics/assignment01-build/src/common/CMakeFiles/common.dir
+/Users/pritikavig/graphics/assignment01-build/src/apps/CMakeFiles/01_raytrace.dir
+/Users/pritikavig/graphics/assignment01-build/src/common/ext/glfw/src/CMakeFiles/glfw.dir
